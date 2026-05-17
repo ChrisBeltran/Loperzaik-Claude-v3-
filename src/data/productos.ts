@@ -22,7 +22,7 @@ export const productos: Producto[] = [
   nombre: 'Lenovo K10',
   descripcion: 'Descripción del producto.',
   precio: 50000,
-  imagen: 'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8NDcwMTg0fGltYWdlL3BuZ3xoNTQvaDdlLzExOTg0OTg2MTQ0Nzk4LnBuZ3w4ZTQ2MmI3ZDFiMmQzOWFkMTk2NGY3ZWU1YTg3NDIxNWI0OTczNGJkZWM0YWJiZjU5N2ViOWM2Mjc2NDU2NjE4/lenovo-tablet-lenovo-tab-k10-hero.png?width=584&height=584',
+  imagen: 'https://images.pexels.com/photos/21525425/pexels-photo-21525425.jpeg',
   imagenes: [
     'https://URL-foto-1.jpg',
     'https://URL-foto-2.jpg',           // puedes agregar varias
