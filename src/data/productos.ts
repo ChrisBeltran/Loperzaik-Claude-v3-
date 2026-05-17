@@ -17,6 +17,31 @@ export const productos: Producto[] = [
   { id: 'ca-001', nombre: 'Cargador TC Universal 2A', descripcion: 'Cargador de pared USB 2A para carga rápida. Compatible con la mayoría de dispositivos.', precio: 18000, imagen: 'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600', imagenes: ['https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600'], categoria: 'cargadores', subcategoria: 'Cargadores TC', marca: 'Genérico', stock: 40, rating: 4.0, reviews: 35, etiquetas: ['Destacado'], especificaciones: { 'Salida': '5V / 2A', 'Puerto': 'USB-A' }, destacado: true, oferta: false },
   { id: 'ca-002', nombre: 'Cable Micro USB 1 metro', descripcion: 'Cable Micro USB de 1 metro para carga y datos. Compatible con celulares Android.', precio: 8000, imagen: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600', imagenes: ['https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600'], categoria: 'cargadores', subcategoria: 'Cables Micro USB', marca: 'Genérico', stock: 50, rating: 4.0, reviews: 42, etiquetas: ['Destacado'], especificaciones: { 'Conector': 'Micro USB', 'Longitud': '1 metro' }, destacado: false, oferta: false },
   { id: 'sw-001', nombre: 'Smartwatch — Próximamente', descripcion: 'Estamos trabajando para traerte los mejores smartwatch. ¡Muy pronto!', precio: 0, imagen: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600', imagenes: ['https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600'], categoria: 'smartwatch', subcategoria: 'Próximamente', marca: '', stock: 0, rating: 0, reviews: 0, etiquetas: ['Próximamente'], especificaciones: {}, destacado: false, oferta: false },
+  {
+  id: 'au-004',                         // ID único, no repetir
+  nombre: 'Lenovo K10',
+  descripcion: 'Descripción del producto.',
+  precio: 50000,
+  imagen: 'https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8NDcwMTg0fGltYWdlL3BuZ3xoNTQvaDdlLzExOTg0OTg2MTQ0Nzk4LnBuZ3w4ZTQ2MmI3ZDFiMmQzOWFkMTk2NGY3ZWU1YTg3NDIxNWI0OTczNGJkZWM0YWJiZjU5N2ViOWM2Mjc2NDU2NjE4/lenovo-tablet-lenovo-tab-k10-hero.png?width=584&height=584',
+  imagenes: [
+    'https://URL-foto-1.jpg',
+    'https://URL-foto-2.jpg',           // puedes agregar varias
+  ],
+  // video: 'https://URL-del-video.mp4', // descomenta si tienes video
+  categoria: 'audio',                   // audio | accesorios-pc | cargadores | smartwatch
+  subcategoria: 'Parlantes',
+  marca: 'Genérico',
+  stock: 10,
+  rating: 0,
+  reviews: 0,
+  etiquetas: ['Nuevo'],
+  especificaciones: {
+    'Conectividad': 'Bluetooth 5.0',
+    'Batería': '8 horas',
+  },
+  destacado: true,
+  oferta: false,
+},
 ];
 
 export const reviews: Review[] = [];
